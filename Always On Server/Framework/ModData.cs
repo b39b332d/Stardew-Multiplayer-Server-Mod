@@ -1,4 +1,6 @@
-﻿namespace Always_On_Server.Framework
+﻿using Netcode;
+
+namespace Always_On_Server.Framework
 {
     class ModData
     {
@@ -12,6 +14,6 @@
         public int ForagingExperience { get; set; }
         public int FishingExperience { get; set; }
         public int CombatExperience { get; set; }
-
+        public NetIntHashSet professions { get; set; }
     }
 }
